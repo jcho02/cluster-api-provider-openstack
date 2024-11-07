@@ -38,10 +38,10 @@ func (s *Service) GetServerGroupID(serverGroupParam *infrav1.ServerGroupParam) (
 	}
 
 	// otherwise fallback to looking up by name, which is slower
-	serverGroup, err := s.getServerGroupByName(*serverGroupParam.Filter.Name)
-	if err != nil {
-		return "", err
-	}
+//	serverGroup, err := s.getServerGroupByName(*serverGroupParam.Filter.Name)
+//	if err != nil {
+//		return "", err
+//	}
 
 	return serverGroup.ID, nil
 }
