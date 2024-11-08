@@ -1,4 +1,4 @@
-module sigs.k8s.io/cluster-api-provider-openstack
+module github.com/jcho02/cluster-api-provider-openstack
 
 go 1.22
 
